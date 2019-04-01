@@ -44,3 +44,11 @@ SIZE HELPERS
 .padding {
   padding: 40px 0;
 }
+
+/* HIDERS */
+@media screen and (max-width: 840px) {
+
+.hide-md {
+  display: none;
+}
+}
