@@ -26,6 +26,11 @@ p {
   font-size: 1.25rem;
   line-height: 1.25; }
 
+.icon-title {
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1em; }
+
 .text-c {
   text-align: center; }
 
