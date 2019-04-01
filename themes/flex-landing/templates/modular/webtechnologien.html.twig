@@ -1,0 +1,16 @@
+<section id="webtechnologien">
+  <div class="container">
+    <div class="row text-c align-c">
+      <div class="col col-12-md">
+      <h1><span>Moderne</span><br>Webtechno&shy;logien</h1>
+      </div>
+    </div>
+    <div class="row align-c justify-c padding">
+      {% for technology in page.header.technologies  %}
+      <div class="col-2 col-3-md col-6-sm d-flex-centered">
+        <img class="img-fluid-80 img-fluid-sm" src="{{ page.url }}/{{ technology.image}}" alt="">
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
