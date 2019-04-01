@@ -1,0 +1,46 @@
+/*
+ALIGNMENT HELPERS
+*/
+.d-flex-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.align-c {
+  align-items: center;
+}
+
+.justify-c {
+  justify-content: center
+}
+
+/*
+SIZE HELPERS
+*/
+
+.fullheight {
+  min-height: 100vh;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.img-fluid-80 {
+  max-width: 80%;
+  height: auto;
+}
+
+@media screen and (max-width: 760) {
+  .img-fluid-sm {
+    max-width: 50%;
+    height: auto;
+  }
+}
+
+/*SPACE HELPERS*/
+
+.padding {
+  padding: 40px 0;
+}
