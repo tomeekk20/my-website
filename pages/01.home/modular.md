@@ -8,6 +8,7 @@ content:
         custom:
             - _hero
             - _webtechnologies
+            - _about
 menu: Home
 onpage_menu: true
 ---
