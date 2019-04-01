@@ -21,9 +21,12 @@ SIZE HELPERS
 .fullheight {
   min-height: 100vh;
 }
+.image-shadow {
+  box-shadow: 0 0px 40px 10px rgba(197,203,213,0.6);
 
+}
 .img-fluid {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 

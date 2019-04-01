@@ -1,12 +1,17 @@
 <section id="about">
   <div class="container">
-    <div class="row">
-      <div class="col-6 hide-md">
-        <img src="{{ page.media['about.png'].url }}" alt="">
+    <div class="row align-c">
+      <div class="col hide-md d-flex-centered">
+        <img class="img-fluid image-shadow" src="{{ page.media['about.png'].url }}" alt="">
       </div>
-      <div class="col-6 col-12-md text-l text-c-md">
-        {{ content|raw }}
+      <div class="col col-12-md text-l text-c-md">
+        <div class="content">
+          {{ content|raw }}
+        </div>
       </div>
+    </div>
+    <div class="row align-c">
+
     </div>
   </div>
 </section>
