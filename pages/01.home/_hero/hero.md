@@ -2,4 +2,4 @@
 title: Home
 ---
 
-Ideen werden zur Realität.
+Ideen in Realität verwandeln lassen.
