@@ -2,7 +2,7 @@
 title: Webtechnologien
 technologies:
             - image: 05.svg
-              title: Responsive Webdesign
+              title: Responsive
             - image: 01.svg
               title: HTML5
             - image: 02.svg
@@ -10,5 +10,5 @@ technologies:
             - image: 03.svg
               title: JavaScript
             - image: 04.svg
-              title: CSS-Präprozessor
+              title: Sass
 ---
