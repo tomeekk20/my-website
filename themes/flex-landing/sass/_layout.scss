@@ -64,7 +64,6 @@ $gutter: 0.75em !default;
   @for $i from 1 through 12 {
     .col-#{$i}-sm {
       flex: 0 1 (100% / 12 * $i);
-      max-width: 100%;
       padding: 1.1em 0.75em;
     }
   }

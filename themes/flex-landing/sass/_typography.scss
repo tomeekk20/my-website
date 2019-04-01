@@ -27,6 +27,12 @@ p {
   }
 }
 
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+}
+
 .subtitle {
   font-weight: 300;
   font-size: 1.25rem;
