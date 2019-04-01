@@ -477,6 +477,12 @@ h1 {
 #hero {
   background-color: #F5F7FA; }
 
+.img-wrapper p {
+  transition: all 0.2s ease-in-out; }
+
+@media screen and (min-width: 960px) {
+  .img-wrapper:hover > p.subtitle.text-c {
+    margin-top: 10px; } }
 #about {
   background-color: #F5F7FA; }
   #about img {
