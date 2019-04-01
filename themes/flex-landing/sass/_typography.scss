@@ -1,7 +1,10 @@
 $main-font: "Ubuntu";
 $fallback-font: "Helvetica", sans-serif;
 
-
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
 
 h1 > span {
   font-weight: 300;
@@ -19,13 +22,6 @@ h1 > span {
     font-size: 1.6rem;
   }
 }
-@media screen and (min-width: 840px) {
-  h1 {
-    font-size: 3rem;
-    color: #293347;
-  }
-}
-
 
 h2 {
   color: #496a9b;
