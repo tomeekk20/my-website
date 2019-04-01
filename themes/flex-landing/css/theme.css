@@ -199,62 +199,62 @@ section:not(#hero) {
 @media screen and (max-width: 700px) {
   .col-1-sm {
     flex: 0 1 8.3333333333%;
-    max-width: 40%;
+    max-width: 100%;
     padding: 1.1em 0.75em; }
 
   .col-2-sm {
     flex: 0 1 16.6666666667%;
-    max-width: 40%;
+    max-width: 100%;
     padding: 1.1em 0.75em; }
 
   .col-3-sm {
     flex: 0 1 25%;
-    max-width: 40%;
+    max-width: 100%;
     padding: 1.1em 0.75em; }
 
   .col-4-sm {
     flex: 0 1 33.3333333333%;
-    max-width: 40%;
+    max-width: 100%;
     padding: 1.1em 0.75em; }
 
   .col-5-sm {
     flex: 0 1 41.6666666667%;
-    max-width: 40%;
+    max-width: 100%;
     padding: 1.1em 0.75em; }
 
   .col-6-sm {
     flex: 0 1 50%;
-    max-width: 40%;
+    max-width: 100%;
     padding: 1.1em 0.75em; }
 
   .col-7-sm {
     flex: 0 1 58.3333333333%;
-    max-width: 40%;
+    max-width: 100%;
     padding: 1.1em 0.75em; }
 
   .col-8-sm {
     flex: 0 1 66.6666666667%;
-    max-width: 40%;
+    max-width: 100%;
     padding: 1.1em 0.75em; }
 
   .col-9-sm {
     flex: 0 1 75%;
-    max-width: 40%;
+    max-width: 100%;
     padding: 1.1em 0.75em; }
 
   .col-10-sm {
     flex: 0 1 83.3333333333%;
-    max-width: 40%;
+    max-width: 100%;
     padding: 1.1em 0.75em; }
 
   .col-11-sm {
     flex: 0 1 91.6666666667%;
-    max-width: 40%;
+    max-width: 100%;
     padding: 1.1em 0.75em; }
 
   .col-12-sm {
     flex: 0 1 100%;
-    max-width: 40%;
+    max-width: 100%;
     padding: 1.1em 0.75em; } }
 .content {
   padding: 0 30px; }
@@ -334,6 +334,8 @@ ALIGNMENT HELPERS
 */
 .d-flex-centered {
   display: flex;
+  flex-direction: column;
+  flex: 0 1 100px;
   align-items: center;
   justify-content: center; }
 
@@ -342,6 +344,9 @@ ALIGNMENT HELPERS
 
 .justify-c {
   justify-content: center; }
+
+.justify-evenly {
+  justify-content: space-evenly; }
 
 /*
 SIZE HELPERS
@@ -359,6 +364,9 @@ SIZE HELPERS
 .img-fluid-80 {
   max-width: 80%;
   height: auto; }
+
+.img-wrapper {
+  padding: 15px; }
 
 @media screen and (max-width: 760) {
   .img-fluid-sm {

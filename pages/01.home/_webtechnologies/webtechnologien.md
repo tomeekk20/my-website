@@ -1,9 +1,14 @@
 ---
 title: Webtechnologien
 technologies:
-            - image: 01.svg
-            - image: 02.svg
-            - image: 03.svg
-            - image: 04.svg
             - image: 05.svg
+              title: Responsive Webdesign
+            - image: 01.svg
+              title: HTML5
+            - image: 02.svg
+              title: CSS3
+            - image: 03.svg
+              title: JavaScript
+            - image: 04.svg
+              title: CSS-Präprozessor
 ---

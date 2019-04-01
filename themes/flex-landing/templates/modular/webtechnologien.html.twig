@@ -5,10 +5,11 @@
       <h1><span>Moderne</span><br>Webtechno&shy;logien</h1>
       </div>
     </div>
-    <div class="row align-c justify-c padding">
+    <div class="row align-c justify-evenly padding">
       {% for technology in page.header.technologies  %}
-      <div class="col-2 col-3-md col-6-sm d-flex-centered">
+      <div class="d-flex-centered img-wrapper">
         <img class="img-fluid-80 img-fluid-sm" src="{{ page.url }}/{{ technology.image}}" alt="">
+        <p class="subtitle text-c">{{ technology.title }}</p>
       </div>
       {% endfor %}
     </div>
