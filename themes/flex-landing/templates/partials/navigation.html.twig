@@ -23,7 +23,7 @@
 {% endmacro %}
 
 <ul class="navbar">
-  <li class="logo"><a href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title }}</a>
+  <li class="logo"><a href="{{ base_url == '' ? '/' : base_url }}"><img class="img-fluid" src="{{ url('theme://images/logo/logo.png')  }}" alt="{{ site.name }}" /></a>
   </li>
   <li class="mobile-icon"><div></div></li>
     {% if theme_config.dropdown.enabled %}

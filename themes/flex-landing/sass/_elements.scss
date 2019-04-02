@@ -4,6 +4,12 @@
   padding: 0 30px;
 }
 
+@media screen and (min-width: 1088px) {
+  .content {
+    padding: 0 100px;
+  }
+}
+
 @media (max-width:840px) {
   .content {
     padding: 0;
