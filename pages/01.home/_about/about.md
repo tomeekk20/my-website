@@ -3,4 +3,4 @@ title: 'Über mich'
 ---
 
 #Webdesign aus Leidenschaft
-Ich entwickle moderne, minimalistische und aussagekräftige Internetseiten. Mit responsivem Webdesign, passe ich die Seiten optimal an alle Engeräte an. Lassen Sie uns gemeinsam, Ihren neuen Webauftritt entwickeln.
+Minimalistisches Webdesign - hohe Komplexität einfach und klar verpackt! Meine Mission ist es Ihr neues Webprojekt vom Konzept bis zur Veröffentlichung durchzuführen. 
