@@ -21,6 +21,7 @@
 
     {% block javascripts %}
         {% do assets.addJs('jquery', 100) %}
+        {% do assets.addJs('theme://js/main.js', {group:'bottom'}) %}
     {% endblock %}
     {{ assets.js() }}
 
