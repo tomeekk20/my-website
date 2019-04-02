@@ -11,13 +11,13 @@ h1 > span {
   color: #293347;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (min-width: 840px) {
   h1 {
     font-size: 2.5rem;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 840px) {
   h1 {
     font-size: 1.6rem;
   }

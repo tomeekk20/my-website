@@ -1,50 +1,14 @@
-{% macro loop(page) %}
-    {% for p in page.children.visible %}
-        {% set current_page = (p.active or p.activeChild) ? 'selected' : '' %}
-        {% if p.children.visible.count > 0 %}
-            <li class="has-children {{ current_page }}">
-                <a href="{{ p.url }}">
-                    {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
-                    {{ p.menu }}
-                </a>
-                <ul class="navbar">
-                    {{ _self.loop(p) }}
-                </ul>
-            </li>
-        {% else %}
-            <li class="nav-item">
-                <a href="{{ p.url }}">
-                    {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
-                    {{ p.menu }}
-                </a>
-            </li>
-        {% endif %}
-    {% endfor %}
-{% endmacro %}
-
 <ul class="navbar">
-  <li class="logo"><a href="{{ base_url == '' ? '/' : base_url }}"><img class="img-fluid" src="{{ url('theme://images/logo/logo.svg')  }}" alt="{{ site.name }}" /></a>
-  </li>
+  <li class="logo"><a href="{{ base_url == '' ? '/' : base_url }}"><img class="img-fluid" src="{{ url('theme://images/logo/logo.svg')  }}" alt="{{ site.name }}" /></a></li>
   <li class="mobile-icon"><div></div></li>
-    {% if theme_config.dropdown.enabled %}
-        {{ _self.loop(pages) }}
-    {% else %}
-        {% for page in pages.children.visible %}
-            {% set current_page = (page.active or page.activeChild) ? 'selected' : '' %}
-            <li class="nav-item">
-                <a href="{{ page.url }}">
-                    {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
-                    {{ page.menu }}
-                </a>
-            </li>
-        {% endfor %}
-    {% endif %}
-    {% for mitem in site.menu %}
-        <li>
-            <a href="{{ mitem.url }}">
-                {% if mitem.icon %}<i class="fa fa-{{ mitem.icon }}"></i>{% endif %}
-                {{ mitem.text }}
-            </a>
-        </li>
-    {% endfor %}
+  <li class="nav-item"><a href="#about">Mehr erfahren</a></li>
+  <li class="nav-item"><a href="#contact" class="btn">Kontakt</a></li>
 </ul>
+</div>
+<div class="container">
+<div class="mobile-nav">
+  <span class="close">x</span>
+  <a href="#about">Mehr Erfahren</a>
+  <a href="#contact">Kontakt</a>
+</div>
+</div>

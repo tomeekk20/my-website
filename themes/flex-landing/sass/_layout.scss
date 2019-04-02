@@ -33,15 +33,10 @@ $gutter: 0.75em !default;
 
 @media screen and (min-width: 1280px) {
   .container {
-    max-width: 1152px;
+    max-width: 1144px;
   }
 }
 
-@media screen and (min-width: 1472px) {
-  .container {
-    max-width: 1344px;
-  }
-}
 
 @media screen and (max-width: 1088px) {
   .container {

@@ -1,9 +1,23 @@
 #about {
-  background-color: #F5F7FA;
+  background-color: #fff;
   img {
     border-radius: 50%;
     border: 0;
     background-color: #e2e6ec;
-    max-width: 250px;
+    max-width: 180px;
+  }
+}
+
+@media screen and (min-width: 840px) {
+  #about img {
+    margin-top: -165px;
+  }
+}
+
+@media screen and (max-width:840px) {
+  #about {
+    img {
+      max-width: 125px;
+    }
   }
 }
