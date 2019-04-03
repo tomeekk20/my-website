@@ -1,16 +1,7 @@
 #about {
   background-color: #fff;
-  img.image-shadow {
-    border-radius: 50%;
-    border: 0;
-    background-color: #e2e6ec;
-    max-width: 180px;
-  }
-  figure {
-    margin-top: 10px;
-    img {
-      max-width: 100px;
-    }
+      img.image-shadow {
+        max-width: 300px;
   }
 }
 
@@ -19,20 +10,16 @@
 }
 
 @media screen and (min-width: 840px) {
-  #about {
-    img {
-      margin-top: -165px;
-  }
   figure {
     margin-top: 100px;
   }
 }
-}
+
 
 @media screen and (max-width:840px) {
   #about {
-    img {
-      max-width: 125px;
+    img.image-shadow {
+      max-width: 160px;
     }
   }
 }

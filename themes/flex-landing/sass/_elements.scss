@@ -6,7 +6,7 @@
 
 @media screen and (min-width: 1088px) {
   .content {
-    padding: 0 100px;
+    padding: 0 50px;
   }
 }
 
@@ -16,6 +16,10 @@
   }
 }
 
+.content-p {
+  font-size: 16px;
+  color: #59636c;
+}
 .circle {
   position: absolute;
   animation-name: web-logos-animation;

@@ -1,6 +1,7 @@
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+  font-weight: 600; }
 
 h1 > span {
   font-weight: 300;
@@ -8,7 +9,7 @@ h1 > span {
 
 @media screen and (min-width: 840px) {
   h1 {
-    font-size: 2.5rem; } }
+    font-size: 2.9rem; } }
 @media screen and (max-width: 840px) {
   h1 {
     font-size: 1.6rem; } }
@@ -17,15 +18,16 @@ h2 {
   font-weight: 500; }
 
 p {
-  font-size: 1.2em;
-  font-weight: 300;
+  font-size: 1em;
+  font-weight: 400;
   letter-spacing: 1.1px;
   line-height: 1.5em; }
 
-.subtitle {
+.subtitle, span.subtitle, span.subtitle > p {
   font-weight: 300;
   font-size: 1.25rem;
-  line-height: 1.25; }
+  letter-spacing: 1.1px;
+  line-height: 1.5em; }
 
 .icon-title {
   font-weight: 300;
@@ -258,10 +260,14 @@ section:not(#hero) {
 
 @media screen and (min-width: 1088px) {
   .content {
-    padding: 0 100px; } }
+    padding: 0 50px; } }
 @media (max-width: 840px) {
   .content {
     padding: 0; } }
+.content-p {
+  font-size: 16px;
+  color: #59636c; }
+
 .circle {
   position: absolute;
   animation-name: web-logos-animation;
@@ -477,7 +483,6 @@ li.logo > a {
     margin: 7px 0;
     transition: all .2s ease-in-out; } }
 h1 {
-  text-transform: uppercase;
   color: #2d497e; }
 
 #hero {
@@ -495,25 +500,16 @@ h1 {
 #about {
   background-color: #fff; }
   #about img.image-shadow {
-    border-radius: 50%;
-    border: 0;
-    background-color: #e2e6ec;
-    max-width: 180px; }
-  #about figure {
-    margin-top: 10px; }
-    #about figure img {
-      max-width: 100px; }
+    max-width: 300px; }
 
 .feature {
   padding: 15px; }
 
 @media screen and (min-width: 840px) {
-  #about img {
-    margin-top: -165px; }
-  #about figure {
+  figure {
     margin-top: 100px; } }
 @media screen and (max-width: 840px) {
-  #about img {
-    max-width: 125px; } }
+  #about img.image-shadow {
+    max-width: 160px; } }
 
 /*# sourceMappingURL=theme.css.map */
