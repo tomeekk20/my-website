@@ -1,17 +1,32 @@
 #about {
   background-color: #fff;
-  img {
+  img.image-shadow {
     border-radius: 50%;
     border: 0;
     background-color: #e2e6ec;
     max-width: 180px;
   }
+  figure {
+    margin-top: 10px;
+    img {
+      max-width: 100px;
+    }
+  }
+}
+
+.feature {
+  padding: 15px;
 }
 
 @media screen and (min-width: 840px) {
-  #about img {
-    margin-top: -165px;
+  #about {
+    img {
+      margin-top: -165px;
   }
+  figure {
+    margin-top: 100px;
+  }
+}
 }
 
 @media screen and (max-width:840px) {
