@@ -52,6 +52,9 @@ p {
 
   .text-r-md {
     text-align: right; } }
+html {
+  scroll-behavior: smooth; }
+
 body {
   font-family: "Ubuntu", "Helvetica", sans-serif;
   font-size: 100%; }

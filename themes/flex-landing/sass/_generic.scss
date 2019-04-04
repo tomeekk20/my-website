@@ -1,7 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: $main-font, $fallback-font;
   font-size: 100%;
 }
+
+
 
 figure {
   margin: 0;
