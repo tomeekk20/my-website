@@ -12,7 +12,7 @@ h1 > span {
     font-size: 2.9rem; } }
 @media screen and (max-width: 840px) {
   h1 {
-    font-size: 1.8rem; } }
+    font-size: 2rem; } }
 h2 {
   color: #0f489c80;
   font-weight: 500; }
@@ -59,12 +59,12 @@ body {
 figure {
   margin: 0; }
 
-section:not(#hero) {
-  padding: 40px 0; }
-
+@media screen and (min-width: 840px) {
+  section:not(#hero) {
+    padding: 40px 0; } }
 @media screen and (max-width: 840px) {
   section {
-    padding: 30px 0; } }
+    padding: 20px 0 0 0; } }
 .container {
   margin: 0 auto;
   position: relative; }
@@ -492,7 +492,7 @@ li.logo > a {
   transition: all 0.2s ease-in-out; }
 
 #webtechnologien {
-  background-color: #fff; }
+  background-color: #F5F7FA; }
 
 @media screen and (min-width: 960px) {
   .img-wrapper:hover > p.icon-title.text-c {
