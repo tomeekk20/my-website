@@ -382,6 +382,9 @@ SIZE HELPERS
 .padding {
   padding: 40px 0; }
 
+@media screen and (max width: 840px) {
+  .padding {
+    padding: 20px 0; } }
 /* HIDERS */
 @media screen and (max-width: 840px) {
   .hide-md {
