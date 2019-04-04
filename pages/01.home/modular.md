@@ -9,7 +9,7 @@ content:
             - _hero
             - _about
             - _webtechnologies
-
+            - _projects
 menu: Home
 onpage_menu: true
 ---
