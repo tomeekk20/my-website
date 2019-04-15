@@ -1,0 +1,74 @@
+body {
+  font-family: $font-stack;
+  color: #141c3a;
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+}
+
+.title {
+  font-size: 2rem;
+  color: #141c3a;
+  text-transform: uppercase;
+
+  @at-root #{&}--thin {
+    font-weight: 300;
+  }
+
+  @at-root #{&}-h2 {
+    margin-top: 0;
+    font-size: 1.6rem;
+    color: #484848;
+
+    @at-root #{&}--spaced {
+      margin-bottom: 3rem;
+    }
+
+    @at-root #{&}--c {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (min-width: 840px) {
+  .title {
+    font-size: 3rem;
+    @at-root #{&}-h2 {
+      font-size: 2.5rem;
+    }
+  }
+
+
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+
+  @at-root #{&}--spaced {
+  margin-bottom: 3rem;
+  }
+
+  @at-root #{&}--lead {
+    font-weight: 600;
+  }
+}
+
+
+.text {
+  font-family: "Helvetica", sans-serif;
+  font-size: 1.1rem;
+}
+.text--blue {
+  color: $blue;
+  font-weight: 300;
+}
+
+.text--small {
+  font-size: $small;
+}
+
+@media screen and (max-width: 840px) {
+  .text--c-md {
+    text-align: center;
+  }
+}

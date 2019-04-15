@@ -1,15 +1,14 @@
-<section id="hero">
+<section id="home" class="section">
   <div class="container">
-    <div class="row fullheight align-c">
-      <div class="col col-12-md">
-        <div class="hero-text text-l text-c-md">
-          <h1><span>Thomas Szewczyk</span><br>Webentwickler</h1>
-          <span class="subtitle">{{ content|raw }}</span>
+      <div class="hero hero--centered text--c-md">
+        <div class="column column--12-md">
+            <h1 class="title"><span class="title--thin">Thomas Szewczyk</span> Webentwickler</h1>
+            <p class="text subtitle subtitle--spaced">Ideen werden Realität. Ich entwickle <span class="subtitle--lead">Ihre neue Internetseite</span></p>
+            <a class="button button--rounded text" href="#">Kontakt <i class="button__arrow button__arrow--right"></i> </a>
+        </div>
+        <div class="column column--12-md">
+            <img class="image image--fluid"src="images/hero.svg" alt="Hero Image">
         </div>
       </div>
-      <div class="col-6 col-12-md">
-          <img class="img-fluid" src="{{ page.media['hero.svg'].url }}" alt="Laptop Illustration">
-      </div>
     </div>
-  </div>
 </section>

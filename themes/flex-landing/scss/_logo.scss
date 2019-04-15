@@ -1,0 +1,22 @@
+.logo {
+  margin-right: auto;
+  font-weight: bold;
+
+@at-root #{&}--size-s {
+    font-size: 1.5rem;
+  }
+
+@at-root #{&}--size-m {
+    font-size:2rem
+  }
+
+@at-root #{&}--size-l {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width:840px) {
+  .logo {
+    font-size: 2rem;
+  }
+}

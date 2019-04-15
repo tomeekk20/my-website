@@ -1,0 +1,14 @@
+.image {
+
+  @at-root #{&}--fluid {
+    max-width: 100%;
+  }
+
+  @at-root #{&}--rounded {
+    border-radius: 100%;
+    max-width: 20rem;
+    width: 100%;
+    min-width: 20rem;
+  }
+
+}

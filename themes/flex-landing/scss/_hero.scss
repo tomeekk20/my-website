@@ -1,0 +1,17 @@
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  min-height: 80vh;
+
+  @at-root #{&}--centered {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .hero {
+    text-align: center;
+  }
+}

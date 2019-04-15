@@ -1,0 +1,10 @@
+.feature {
+
+  @at-root #{&}__icon {
+    max-width: 6rem;
+  }
+
+  @at-root #{&}__text {
+    text-align: center;
+  }
+}

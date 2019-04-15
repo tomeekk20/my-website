@@ -32,13 +32,9 @@
 <body id="top" class="{{ page.header.body_classes }}">
 
 {% block header %}
-    <header>
+    <header class="header header--sticky">
           {% block header_navigation %}
-          <nav>
-            <div class="container">
               {% include 'partials/navigation.html.twig' %}
-              </div>
-          </nav>
           {% endblock %}
     </header>
 {% endblock %}

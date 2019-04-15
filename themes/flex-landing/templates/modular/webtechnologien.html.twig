@@ -1,18 +1,20 @@
-<section id="webtechnologien">
+
+<section id="technologies" class="section">
   <div class="container">
-    <div class="row text-c align-c">
-      <div class="col col-12-md">
-      <h1><span>Moderne</span> <wbr>Webtechnologien</h1>
-      <h2 class="subtitle text-c">Die neusten Webstandards und Technologien.</h2>
-      </div>
-    </div>
-    <div class="row align-c justify-evenly padding">
+    <h2 class="title-h2 title-h2--c title-h2--spaced">Webtechnologien</h2>
+    <div class="d-flex">
       {% for technology in page.header.technologies  %}
-      <div class="d-flex-centered img-wrapper">
-        <img class="img-fluid-80 img-fluid-sm" src="{{ page.url }}/{{ technology.image}}" alt="">
-        <p class="icon-title text-c">{{ technology.title }}</p>
+      <div class="column d-flex d-flex--centered">
+        <div class="feature">
+          <div class="feature__icon">
+            <img class="image--fluid" src="{{ page.url }}/{{ technology.image}}" alt="">
+          </div>
+          <div class="feature__text">
+            <p>{{ technology.title }}</p>
+          </div>
+        </div>
       </div>
-      {% endfor %}
+      {% endfor %}    
     </div>
   </div>
 </section>

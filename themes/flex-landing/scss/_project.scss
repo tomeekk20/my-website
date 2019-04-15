@@ -1,0 +1,17 @@
+.project {
+  display: block;
+  overflow: hidden;
+  height: 300px;
+  position: relative;
+  border-radius: 12px;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+
+  @at-root #{&}__overlay {
+    background-color: rgba(45, 73, 126, 0);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 310px;
+    transition: all 0.5s ease-in-out;
+  }
+}

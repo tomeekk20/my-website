@@ -1,0 +1,31 @@
+.menu {
+
+  @at-root #{&}__inner {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+
+    @at-root #{&}--flex {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    @at-root #{&}--centered {
+      align-items: center;
+    }
+  }
+
+  @at-root #{&}__item {
+    margin-left: 1.5rem;
+
+    @at-root #{&}--left {
+      margin-right: auto;
+      margin-left: 0;
+    }
+  }
+
+  @at-root #{&}__link {
+    text-decoration: none;
+    color: $primary;
+  }
+}

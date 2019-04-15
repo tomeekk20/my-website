@@ -1,0 +1,10 @@
+.column {
+  flex: 1 1 0;
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 840px) {
+  .column--12-md {
+    flex: 1 1 100%;
+  }
+}
