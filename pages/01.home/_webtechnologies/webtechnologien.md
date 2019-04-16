@@ -4,9 +4,9 @@ technologies:
             - image: 05.svg
               title: RWD
             - image: 01.svg
-              title: HTML5
+              title: HTML
             - image: 02.svg
-              title: CSS3
+              title: CSS
             - image: 03.svg
               title: JS
             - image: 04.svg
