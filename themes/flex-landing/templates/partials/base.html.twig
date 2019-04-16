@@ -49,11 +49,7 @@
 {% endblock %}
 </main>
 {% block footer %}
-    <div class="container">
-        <div class="wrapper padding">
-            <p class="text-c"><a href="http://getgrav.org">This website</a> was <i class="code-icon"></i> with <i class="heart-icon"></i> by <a href="http://www.rockettheme.com">Thomas Szewczyk</a>.</p>
-        </div>
-    </div>
+  {% include 'partials/footer.html.twig' %}
 {% endblock %}
 
 {% block bottom %}

@@ -7,8 +7,8 @@ content:
         dir: asc
         custom:
             - _hero
-            - _about
             - _webtechnologies
+            - _about
             - _projects
 menu: Home
 onpage_menu: true
