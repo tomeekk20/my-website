@@ -251,4 +251,15 @@ svg {
   top: 2px;
   width: 18px; }
 
+.link-with-arrow {
+  color: #006ee5;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  text-transform: uppercase; }
+
+.arrow {
+  height: 16px; }
+
 /*# sourceMappingURL=theme.css.map */
