@@ -217,6 +217,9 @@ svg {
   width: 100%;
   min-width: 20rem; }
 
+@media screen and (max-width: 840px) {
+  .hero .image--fluid {
+    margin-top: 1.5rem; } }
 .feature__icon {
   max-width: 6rem; }
 .feature__text {
