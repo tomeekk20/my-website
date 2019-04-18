@@ -1,13 +1,13 @@
 body {
   font-family: $font-stack;
-  color: #141c3a;
+  color: $standard;
   line-height: 1.4;
   letter-spacing: 0.08em;
 }
 
 .title {
   font-size: 2rem;
-  color: #141c3a;
+  color: #fff;
   text-transform: uppercase;
   line-height: 1.2;
 
@@ -18,10 +18,14 @@ body {
   @at-root #{&}-h2 {
     margin-top: 0;
     font-size: 1.6rem;
-    color: #141c3a;
-
+    color: $blue;
+    text-transform: uppercase;
     @at-root #{&}--spaced {
       margin-bottom: 3rem;
+    }
+
+    @at-root #{&}--dark {
+      color: $primary;
     }
 
     @at-root #{&}--c {
@@ -42,7 +46,7 @@ body {
 }
 
 .subtitle {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 300;
 
   @at-root #{&}--spaced {

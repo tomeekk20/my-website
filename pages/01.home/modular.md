@@ -7,7 +7,6 @@ content:
         dir: asc
         custom:
             - _hero
-            - _webtechnologies
             - _about
             - _projects
 menu: Home

@@ -1,6 +1,7 @@
 .logo {
   margin-right: auto;
   font-weight: bold;
+  color: $blue !important;
 
 @at-root #{&}--size-s {
     font-size: 1.5rem;
