@@ -1,7 +1,10 @@
 .image {
 
   @at-root #{&}--fluid {
-    max-width: 70%;
+    max-width: 100%;
+    @at-root #{&}-medium {
+      max-width: 70%;
+    }
   }
 
   @at-root #{&}--rounded {

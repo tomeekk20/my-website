@@ -210,7 +210,9 @@ svg {
     text-decoration: none; }
 
 .image--fluid {
-  max-width: 70%; }
+  max-width: 100%; }
+  .image--fluid-medium {
+    max-width: 70%; }
 .image--rounded {
   border-radius: 100%;
   max-width: 20rem;
