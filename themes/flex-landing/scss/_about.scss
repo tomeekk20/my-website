@@ -1,7 +1,11 @@
 .about {
-  
+
   @at-root #{&}__text {
     max-width: 32rem;
     margin: 0 auto;
   }
+}
+
+.about .text {
+  margin-bottom: 3rem;
 }

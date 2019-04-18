@@ -200,6 +200,9 @@ svg {
   max-width: 32rem;
   margin: 0 auto; }
 
+.about .text {
+  margin-bottom: 3rem; }
+
 .footer {
   background-color: #006ee5;
   color: #fff;
