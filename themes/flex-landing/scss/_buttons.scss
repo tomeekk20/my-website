@@ -9,6 +9,11 @@
   text-decoration: none;
   box-shadow: 2px 3px 10px 0 rgba(0,0,0,0.3);
 
+
+@at-root #{&}--small {
+  padding: 0.7em 1.3em;
+  font-size: 0.9rem;
+}
  @at-root #{&}--rounded {
     border-radius: 24px;
   }
