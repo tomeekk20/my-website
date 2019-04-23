@@ -25,7 +25,7 @@ body {
   letter-spacing: 0.08em; }
 
 .title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #182D4E;
   text-transform: uppercase;
   line-height: 1.2;
@@ -191,10 +191,7 @@ body {
 
 @media screen and (max-width: 840px) {
   .hero {
-    text-align: center; }
-
-  .hero .title {
-    max-width: 32rem; } }
+    text-align: center; } }
 svg {
   position: absolute;
   bottom: -1px;
