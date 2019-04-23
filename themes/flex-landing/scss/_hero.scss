@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   text-align: left;
   min-height: 80vh;
+  margin: 0 auto;
 
   @at-root #{&}--centered {
     align-items: center;
