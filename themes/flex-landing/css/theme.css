@@ -190,7 +190,10 @@ body {
 
 @media screen and (max-width: 840px) {
   .hero {
-    text-align: center; } }
+    text-align: center; }
+
+  .hero .title {
+    max-width: 32rem; } }
 svg {
   position: absolute;
   bottom: -1px;
