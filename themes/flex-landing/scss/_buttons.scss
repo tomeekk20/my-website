@@ -1,19 +1,14 @@
 .button {
-  padding: 0.9em 1.5em;
-  background: #fff;
+  padding: 0.9em 1.2em;
+  background: $purple-gradient;
   border-radius: 6px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: bold;
-  color: $blue;
+  color: #fff;
   text-transform: uppercase;
   text-decoration: none;
   box-shadow: 2px 3px 10px 0 rgba(0,0,0,0.3);
 
-
-@at-root #{&}--small {
-  padding: 0.7em 1.3em;
-  font-size: 0.9rem;
-}
  @at-root #{&}--rounded {
     border-radius: 24px;
   }
@@ -21,8 +16,8 @@
 @at-root #{&}__arrow {
     position: relative;
     bottom: 2px;
-    left: 6px;
-    border: solid $blue;
+    left: 3px;
+    border: solid #fff;
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 3px;
@@ -36,5 +31,5 @@
 }
 
 .button:hover .button__arrow {
-  left: 12px;
+  left: 10px;
 }

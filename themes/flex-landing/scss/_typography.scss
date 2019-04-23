@@ -7,9 +7,10 @@ body {
 
 .title {
   font-size: 2rem;
-  color: #fff;
+  color: #182D4E;
   text-transform: uppercase;
   line-height: 1.2;
+  margin-bottom: 0;
 
   @at-root #{&}--thin {
     font-weight: 300;
@@ -18,10 +19,12 @@ body {
   @at-root #{&}-h2 {
     margin-top: 0;
     font-size: 1.6rem;
-    color: $blue;
+    color: #55617B;
     text-transform: uppercase;
+    line-height: 1.2;
     @at-root #{&}--spaced {
-      margin-bottom: 3rem;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
     }
 
     @at-root #{&}--dark {
@@ -46,11 +49,12 @@ body {
 }
 
 .subtitle {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 300;
+  color: #55617B;
 
   @at-root #{&}--spaced {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   }
 
   @at-root #{&}--lead {
@@ -60,9 +64,10 @@ body {
 
 
 .text {
-  font-family: "Ubuntu", "Verdana", "Helvetica", sans-serif;
+  font-family: "Nunito Sans", "Verdana", "Helvetica", sans-serif;
   font-size: 1.1rem;
   color: #46515a;
+  line-height: 1.5;
 }
 .text--blue {
   color: $blue;
