@@ -1,15 +1,36 @@
 .feature {
+
+  width: 100%;
+
   @at-root #{&}__icon {
-    max-width: 6rem;
+    margin-bottom: 2rem;
+    margin-top: 2.5rem;
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 8rem;
+    }
   }
 
   @at-root #{&}__text {
     text-align: center;
+    max-width: 32rem;
+    margin: 0 auto;
   }
 }
 
 @media screen and (max-width:478px) {
   .feature__icon {
     min-width: 4.5rem;
+  }
+}
+
+@media only screen and (min-width: 840px) {
+  .feature {
+    max-width: 29%;
+  }
+
+  .feature__icon {
+    margin-top: 0;
   }
 }

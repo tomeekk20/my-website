@@ -7,6 +7,7 @@ content:
         dir: asc
         custom:
             - _hero
+            - _features
             - _about
             - _projects
 menu: Home

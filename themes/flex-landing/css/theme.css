@@ -79,6 +79,14 @@ body {
 @media screen and (max-width: 840px) {
   .text--c-md {
     text-align: center; } }
+.flexbox {
+  display: flex;
+  flex-wrap: wrap; }
+
+.flexbox--centered {
+  align-items: center;
+  justify-content: space-between; }
+
 /* LAYOUT */
 .container {
   margin: 0 auto;
@@ -207,7 +215,7 @@ svg {
   margin-bottom: 3rem; }
 
 .footer {
-  background-color: #006ee5;
+  background: linear-gradient(45deg, #5D67DA, #7D86F3);
   color: #fff;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem; }
@@ -228,14 +236,29 @@ svg {
 @media screen and (max-width: 840px) {
   .hero .image--fluid {
     margin-top: 1.5rem; } }
-.feature__icon {
-  max-width: 6rem; }
-.feature__text {
-  text-align: center; }
+.feature {
+  width: 100%; }
+  .feature__icon {
+    margin-bottom: 2rem;
+    margin-top: 2.5rem; }
+    .feature__icon img {
+      display: block;
+      margin: 0 auto;
+      max-width: 8rem; }
+  .feature__text {
+    text-align: center;
+    max-width: 32rem;
+    margin: 0 auto; }
 
 @media screen and (max-width: 478px) {
   .feature__icon {
     min-width: 4.5rem; } }
+@media only screen and (min-width: 840px) {
+  .feature {
+    max-width: 29%; }
+
+  .feature__icon {
+    margin-top: 0; } }
 .project {
   display: block;
   overflow: hidden;
