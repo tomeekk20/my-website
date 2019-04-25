@@ -185,6 +185,10 @@ body {
   padding: 2rem 0;
   background-color: #fff; }
 
+.section--purple {
+  background-color: #5D67DA;
+  color: #fff; }
+
 @media screen and (min-width: 1088px) {
   .section {
     padding: 5rem 0; } }
@@ -215,7 +219,7 @@ svg {
   margin-bottom: 3rem; }
 
 .footer {
-  background: linear-gradient(45deg, #5D67DA, #7D86F3);
+  background: #5D67DA;
   color: #fff;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem; }
@@ -236,6 +240,17 @@ svg {
 @media screen and (max-width: 840px) {
   .hero .image--fluid {
     margin-top: 1.5rem; } }
+.features-header {
+  text-align: center;
+  max-width: 80%;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0 auto;
+  font-family: Helvetica, sans-serif; }
+
+@media only screen and (max-width: 840px) {
+  .features-header h1.title--thin {
+    font-size: 1.2rem; } }
 .feature {
   width: 100%; }
   .feature__icon {

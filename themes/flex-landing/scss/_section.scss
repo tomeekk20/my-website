@@ -3,6 +3,11 @@
   background-color:#fff;
 }
 
+.section--purple {
+  background-color: $purple;
+  color: #fff;
+}
+
 @media screen and (min-width: 1088px) {
   .section {
     padding: 5rem 0;
