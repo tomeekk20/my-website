@@ -9,3 +9,40 @@
 .about .text {
   margin-bottom: 3rem;
 }
+
+.image-container {
+  display:none;
+}
+
+@media only screen and (min-width: 840px) {
+  .image-container {
+    display: block;
+    width: 450px;
+    height: 350px;
+    background-image: url("/user/pages/01.home/_about/about.svg");
+    background-size: cover;
+    background-position: center center;
+    transition: background-image 0.1s ease-in;
+  }
+  .image-container:hover {
+    display: block;
+    width: 450px;
+    height: 350px;
+    background-image: url("/user/pages/01.home/_about/about2.svg");
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+@media only screen and (max-width: 915px) {
+  .image-container {
+    width: 360px;
+    height: 260px;
+  }
+
+  .image-container:hover {
+    width: 360px;
+    height: 260px;
+  }
+
+}

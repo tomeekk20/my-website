@@ -21,3 +21,9 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 744px) {
+  .hide--mobile {
+    display: none;
+  }
+}

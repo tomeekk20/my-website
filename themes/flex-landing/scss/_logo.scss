@@ -1,7 +1,6 @@
 .logo {
   margin-right: auto;
-  font-weight: bold;
-  color: #5D67DA !important;
+  font-weight: 700;
 
 @at-root #{&}--size-s {
     font-size: 1.5rem;
@@ -18,6 +17,6 @@
 
 @media screen and (max-width:840px) {
   .logo {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
 }

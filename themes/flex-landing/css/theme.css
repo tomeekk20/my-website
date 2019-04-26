@@ -18,6 +18,9 @@
 @media screen and (max-width: 840px) {
   .hide--tablet {
     display: none; } }
+@media screen and (max-width: 744px) {
+  .hide--mobile {
+    display: none; } }
 body {
   font-family: "Nunito Sans", "Helvetica", "Arial", sans-serif;
   color: #182D4E;
@@ -34,10 +37,10 @@ body {
     font-weight: 300; }
   .title-h2 {
     margin-top: 0;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #55617B;
-    text-transform: uppercase;
-    line-height: 1.2; }
+    line-height: 1.2;
+    font-weight: 400; }
     .title-h2--spaced {
       margin-top: 1rem;
       margin-bottom: 2rem; }
@@ -46,11 +49,18 @@ body {
     .title-h2--c {
       text-align: center; }
 
-@media screen and (min-width: 840px) {
+.title-section {
+  font-size: 1.6rem;
+  font-weight: 200;
+  line-height: 1.3; }
+
+@media only screen and (min-width: 840px) {
   .title {
     font-size: 3rem; }
     .title-h2 {
-      font-size: 2.5rem; } }
+      font-size: 2.4rem; }
+    .title .title-section {
+      font-size: 2rem; } }
 .subtitle {
   font-size: 1.4rem;
   font-weight: 300;
@@ -111,8 +121,7 @@ body {
 /* BLOCKS */
 .logo {
   margin-right: auto;
-  font-weight: bold;
-  color: #5D67DA !important; }
+  font-weight: 700; }
   .logo--size-s {
     font-size: 1.5rem; }
   .logo--size-m {
@@ -122,7 +131,7 @@ body {
 
 @media screen and (max-width: 840px) {
   .logo {
-    font-size: 2rem; } }
+    font-size: 1.4rem; } }
 .button {
   padding: 0.9em 1.2em;
   background: linear-gradient(45deg, #5D67DA, #7D86F3);
@@ -150,6 +159,9 @@ body {
 
 .button:hover .button__arrow {
   left: 10px; }
+
+.button--blue {
+  background: linear-gradient(45deg, #74A5F8, #A3C0EE); }
 
 .header {
   background-color: #fff;
@@ -185,13 +197,19 @@ body {
   padding: 2rem 0;
   background-color: #fff; }
 
+.section--is-hero {
+  padding-bottom: 0; }
+
 .section--purple {
   background-color: #5D67DA;
   color: #fff; }
 
 @media screen and (min-width: 1088px) {
   .section {
-    padding: 5rem 0; } }
+    padding: 6rem 0; }
+
+  .section--is-hero {
+    padding-bottom: 0; } }
 .hero {
   display: flex;
   flex-wrap: wrap;
@@ -218,6 +236,34 @@ svg {
 .about .text {
   margin-bottom: 3rem; }
 
+.image-container {
+  display: none; }
+
+@media only screen and (min-width: 840px) {
+  .image-container {
+    display: block;
+    width: 450px;
+    height: 350px;
+    background-image: url("/user/pages/01.home/_about/about.svg");
+    background-size: cover;
+    background-position: center center;
+    transition: background-image 0.1s ease-in; }
+
+  .image-container:hover {
+    display: block;
+    width: 450px;
+    height: 350px;
+    background-image: url("/user/pages/01.home/_about/about2.svg");
+    background-size: cover;
+    background-position: center center; } }
+@media only screen and (max-width: 915px) {
+  .image-container {
+    width: 360px;
+    height: 260px; }
+
+  .image-container:hover {
+    width: 360px;
+    height: 260px; } }
 .footer {
   background: #5D67DA;
   color: #fff;
@@ -243,10 +289,9 @@ svg {
 .features-header {
   text-align: center;
   max-width: 80%;
-  font-size: 1.5rem;
-  font-weight: 300;
   margin: 0 auto;
-  font-family: Helvetica, sans-serif; }
+  font-family: Helvetica, sans-serif;
+  margin-bottom: 4rem; }
 
 @media only screen and (max-width: 840px) {
   .features-header h1.title--thin {
@@ -274,6 +319,9 @@ svg {
 
   .feature__icon {
     margin-top: 0; } }
+.feature h2 {
+  font-weight: 400; }
+
 .project {
   display: block;
   overflow: hidden;

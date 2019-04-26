@@ -1,26 +1,17 @@
 "use strict";
 /*
-const mobileNav = document.querySelector('.mobile-icon');
-const mainNav = document.querySelector('.mobile-nav');
-const closeBtn = document.querySelector('.close');
-const mobileItem = document.querySelector('.mobile-item');
+const aboutImage1 = document.getElementById('about-image');
+const aboutImage2src = '/user/pages/01.home/_about/about2.svg';
+const aboutImage1src = '/user/pages/01.home/_about/about.svg';
 
-mobileNav.addEventListener('click', function(e){
-  navItems.classList.add('active-toggle');
-});
+const showAboutImage2 = function(){
+  aboutImage1.src = aboutImage2src;
+};
 
-closeBtn.addEventListener('click', function(e){
-  navItems.classList.remove('active-toggle');
-});
+const showAboutImage1 = function(){
+  aboutImage1.src = aboutImage1src;
+};
 
-mobileItem.addEventListener('click', function(e){
-  navItems.classList.remove('active-toggle');
-}); */
-
-function classToggle() {
-  const nav = document.querySelector('.mobile-nav');
-
-  nav.classList.toggle('active-toggle');
-}
-const mobileItems = document.querySelectorAll('.mobile-item');
-  mobileItems.forEach(item => item.addEventListener('click', classToggle));
+aboutImage1.addEventListener('mouseover', showAboutImage2);
+aboutImage1.addEventListener('mouseout', showAboutImage1);
+*/

@@ -3,6 +3,9 @@
   background-color:#fff;
 }
 
+.section--is-hero {
+  padding-bottom: 0;
+}
 .section--purple {
   background-color: $purple;
   color: #fff;
@@ -10,6 +13,9 @@
 
 @media screen and (min-width: 1088px) {
   .section {
-    padding: 5rem 0;
+    padding: 6rem 0;
+  }
+  .section--is-hero {
+    padding-bottom: 0;
   }
 }
